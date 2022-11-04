@@ -13,3 +13,10 @@
 # Use a method that will print every character in lowercase letters. (.downcase method) 
 # End goal is to have code print out all words in lowercase!!!!
 
+rainbow = ["rEd", "OrAnGe", "yELLow", "gREEN", "bluE", "PURplE"]
+
+rainbow.each do |colors|
+ p colors.downcase
+end
+
+
