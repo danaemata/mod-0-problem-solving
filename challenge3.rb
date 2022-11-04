@@ -13,3 +13,10 @@
 # End goal is to have code give us the strings that begin with t.
 
 
+animals = ["dog", "turtle", "ant", "tick", "monkey"]
+
+animals.each do |animal|
+    if animal.start_with?("t")
+    p animal
+    end
+end
