@@ -1,0 +1,1 @@
+#Given an array of strings, return only the words that begin with the letter "t".
